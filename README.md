@@ -27,6 +27,21 @@ Additionally, drepcap-frontend consists the self-adaptivity logic and functional
 <img alt="DRePCap Architecture Overview" src="https://github.com/fg-netzwerksicherheit/drepcap/raw/master/doc/images/drepcap_architecture.png"/>
 </p>
 
+### Paper and Referencing
+In the paper "Monitoring Traffic in Computer Networks with Dynamic Distributed Remote Packet Capturing" by Ruediger Gad, Martin Kappes, and Inmaculada Bulo, which was presented at IEEE ICC 2015 in London, the concepts of DRePCap as well as results of a detailed evaluation are presented.
+For referencing DRePCap or this paper, the preliminary bibtex entry is as follows:
+
+    @inproceedings{gad_monitoring_2015,
+	title = {Monitoring {Traffic} in {Computer} {Networks} with {Dynamic} {Distributed} {Remote} {Packet} {Capturing}},
+	booktitle = {2015 {IEEE} {International} {Conference} on {Communications} ({ICC})},
+	author = {Gad, Ruediger and Kappes, Martin and Medina-Bulo, Inmaculada},
+	month = jun,
+	year = {2015},
+    note = {in press},
+    }
+
+
+
 ## Important Preparations
 Please note: Before starting the drepcap-sensor make sure that the native libpcap library is installed and that it can be accessed via "libpcap.so".
 To check this you can do:
