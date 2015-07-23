@@ -21,6 +21,12 @@ In cooperative scenarios, the drepcap-merger is used for merging the data stream
 The drepcap-frontend is a graphical user interface (GUI) for controlling DRePCap.
 Additionally, drepcap-frontend consists the self-adaptivity logic and functionality for emitting sensor data to fifos.
 
+### Architecture Overview
+
+<p align="center">
+<img alt="DRePCap Architecture Overview" src="https://github.com/fg-netzwerksicherheit/drepcap/raw/master/doc/images/drepcap_architecture.png"/>
+</p>
+
 ## Important Preparations
 Please note: Before starting the drepcap-sensor make sure that the native libpcap library is installed and that it can be accessed via "libpcap.so".
 To check this you can do:
