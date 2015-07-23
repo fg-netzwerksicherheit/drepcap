@@ -9,7 +9,7 @@ DRePCap consists of four components.
 ### [clj-jms-activemq-toolkit](https://github.com/fg-netzwerksicherheit/clj-jms-activemq-toolkit)
 clj-jms-activemq-toolkit is a simple runner for starting a JMS broker.
 It also contains additional functionality that is required by the frontend, e.g.,
-for querying the available sensors and merges that are currently connected to the broker.
+for querying the available sensors and mergers that are currently connected to the broker.
 
 ### [drepcap-sensor](https://github.com/fg-netzwerksicherheit/drepcap-sensor)
 The drepcap-sensor captures packets and sends them to the JMS infrastructure.
